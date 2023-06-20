@@ -15,19 +15,20 @@
             "type": "integer"
           },
           {
-            "name": "Urbanisation",
+            "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "Other source of electricity",
+                "Other source of energy for heating water",
+                "Wood",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

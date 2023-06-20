@@ -16,20 +16,21 @@
             "title": "Year"
           },
           {
-            "name": "Urbanisation",
+            "name": "Source",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "Other source of electricity",
+                "Other source of energy for heating water",
+                "Wood",
                 ""
               ]
             },
-            "title": "Urbanisation"
+            "title": "Source"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

@@ -16,18 +16,6 @@
             "title": "Año"
           },
           {
-            "name": "Attribute",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Very dissatisfied",
-                "Dissatisfied",
-                ""
-              ]
-            },
-            "title": "Attribute"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
